@@ -6,6 +6,7 @@ Make sure it has enough Ampere rating,
 This is to intercept the power source with a Solid state relay to turn on and off. 
 3 - A USB cable, we just need to use + and - wire for the power source, nothing else.
 
+![alt text](https://github.com/A1M918/eGPU_dynamic_power_module/blob/main/Capture.PNG?raw=true)
 
 I have used this relay in my 3D printer and it works fine for me. So I thought why not use it with my eGPU? 
 The idea is as soon as the PC is turned on, it supplies a 5V source into USB which will be enough to turn on the SSR which will enable the current flow of the main power source to eGPU. 
